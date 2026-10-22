@@ -1,0 +1,132 @@
+/* ---------- Basic ---------- */
+body {
+  font-family: Arial;
+  background: white;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- Navbar and Hero ---------- */
+nav,
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.btn {
+  background: Red;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 55px;
+  margin: 0;
+}
+
+.hero h2 {
+  text-align: left;
+}
+
+.blob {
+  width: 280px;
+  height: 230px;
+  background:yellow;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 80px;
+  line-height: 230px;
+}
+
+/* ---------- Cards and Boxes ---------- */
+.cards,
+.grid {
+  display: grid;
+  gap: 20px;
+  padding: 20px 7%;
+}
+
+.cards {
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.peach {
+  background: orange;
+}
+
+.green {
+  background:white;
+}
+
+.blue {
+  background: white;
+}
+
+/* ---------- Tags ---------- */
+.tags {
+  text-align: center;
+}
+
+.tags span {
+  padding: 6px 20px;
+  border-radius: 20px;
+  color:white;
+  margin: 5px;
+}
+
+.html {
+  background: red;
+}
+
+.css {
+  background: blue;
+}
+
+.js {
+  background: yellow;
+}
+
+/* ---------- Headings, Form and Footer ---------- */
+h2 {
+  text-align: center;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+}
